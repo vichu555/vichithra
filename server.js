@@ -22,7 +22,7 @@ app.listen(3000, function() {
 })
 app.get('/hostel',async(req,res)=>
 {  
-console.log('hostel')
+console.log('hostel rooms')
 //res.send('dhivya')
 const hostellist=await hostel.find()
 res.json(hostellist);
